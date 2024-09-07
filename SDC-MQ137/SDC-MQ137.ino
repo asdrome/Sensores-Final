@@ -5,6 +5,19 @@
 #include <Wire.h>
 #include "Adafruit_SCD30.h"
 
+// Conexiones
+// SCD30 ESP32
+// VIN   3.3v
+// GND   GND
+// SCL   P22
+// SDA   P21
+// ---------------------------------------------------------------------------------------
+// MQ137
+// Vcc   5V
+// GND   GND
+// A0    P35
+
+
 const int MQ137_PIN = 35; // Cambia A0 si usas otro pin analógico
 
 // Inicialmente, usa un valor estimado para R0 (puedes cambiarlo después de la calibración)
